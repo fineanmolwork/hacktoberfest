@@ -1,0 +1,26 @@
+Problem Statement
+You are given 3 non-negative integers A, B and C. In one operation, you can pick any two of the given integers and subtract one from both of them.
+
+If it is possible to make all the 3 integers zero after some number of operations (possibly none), print "Yes". Otherwise, print "No".
+Input
+The first line contains a single integer T – the number of test cases.
+Each of the next T lines contains 3 space separated integers A, B and C respectively.
+
+Constraints:
+1 ≤ T ≤ 10
+0 ≤ A, B, C ≤ 10
+Output
+Output T lines, the ith line containing a single word, either "Yes" or "No" – the answer to the ith test case.
+Example
+Sample Input 1:
+2
+3 4 2
+2 2 2
+
+Sample Output 1:
+No
+Yes
+
+Sample Explanation 1:
+For the first test case, there is no possible way to make all the elements zero.
+For the second test case, we can pick elements in the following order: (A,B), (B,C), (A,C)
